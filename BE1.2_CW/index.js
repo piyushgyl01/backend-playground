@@ -26,6 +26,8 @@ function seedData() {
       });
 
       newMovie.save();
+      console.log(`Movie "${movieData.title}" saved.`);
+
     }
   } catch (error) {
     console.log("Error seeding the data", error);
